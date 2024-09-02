@@ -1,48 +1,45 @@
+
 public class String2 {
-        public static void main(String[] args) {
-            String firstName = "Ismail" ;
-            String lastName = " Hossain";
-            String fullName = firstName + lastName;
-            System.out.println(fullName);
 
-            fullName = firstName.concat(lastName);
-            System.out.println(fullName);
+    public static void main(String[] args) {
+        String firstName = "Ismail";
+        String lastName = " Hossain";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
 
-            String upper = fullName.toUpperCase();
-            System.out.println(upper);
+        fullName = firstName.concat(lastName);
+        System.out.println(fullName);
 
-            boolean b = fullName.startsWith("I");
-            System.out.println("First Letter = "+b);
-            
-            boolean v = fullName.endsWith("n");
-            System.out.println("Last Letter = "+v);
+        String upper = fullName.toUpperCase();
+        System.out.println(upper);
 
+        boolean b = fullName.startsWith("I");
+        System.out.println("First Letter = " + b);
 
-            int []  numbers = new int[10];
+        boolean v = fullName.endsWith("n");
+        System.out.println("Last Letter = " + v);
 
-            String[] fruits = {"Apple", "Banana", "Cherry"};  // String array
+        int[] numbers = new int[10];
 
-            String country = "Bangladesh is my country";
+        String[] fruits = {"Apple", "Banana", "Cherry"};  // String array
 
-            char ch = country.charAt(0);
-            System.out.println("ch = "+ch);
+        String country = "Bangladesh is my country";
 
-            int value = country.codePointAt(0);
-            System.out.println("Value = "+value);
+        char ch = country.charAt(0);
+        System.out.println("ch = " + ch);
 
-            int pos = country.indexOf("is");
-            System.out.println("Position = "+pos);
+        int value = country.codePointAt(0);
+        System.out.println("Value = " + value);
 
-            int lastPos = country.lastIndexOf("n");
-            System.out.println("Last position = "+lastPos);
+        int pos = country.indexOf("is");
+        System.out.println("Position = " + pos);
 
-            String  str = "  I   am   a    CSE     student   ";
-            String s = str.trim();
-            System.out.println(s);
+        int lastPos = country.lastIndexOf("n");
+        System.out.println("Last position = " + lastPos);
 
+        String str = "  I   am   a    CSE     student   ";
+        String s = str.trim();
+        System.out.println(s);
 
-
-
-            
-        }
+    }
 }
